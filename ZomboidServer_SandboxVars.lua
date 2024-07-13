@@ -345,7 +345,7 @@ SandboxVars = {
     -- 5 = Often
     AnnotatedMapChance = 4,
     -- Adds free points during character creation. Minimum=-100 Maximum=100 Default=0
-    CharacterFreePoints = 0,
+    CharacterFreePoints = 20,
     -- Gives player-built constructions extra hit points so they are more resistant to zombie damage. Default=Normal
     -- 1 = Very Low
     -- 2 = Low
@@ -370,7 +370,7 @@ SandboxVars = {
     -- Enable or disable broken limbs when survivors receive injuries from impacts, zombie damage and falls.
     BoneFracture = true,
     -- How long before zombie bodies disappear. Minimum=-1.00 Maximum=2147483647.00 Default=216.00
-    HoursForCorpseRemoval = 216.0,
+    HoursForCorpseRemoval = 100.0,
     -- Governs impact that nearby decaying bodies has on the player's health and emotions. Default=Normal
     -- 1 = None
     -- 2 = Low
@@ -389,7 +389,7 @@ SandboxVars = {
     ClothingDegradation = 3,
     FireSpread = true,
     -- Number of in-game days before rotten food is removed from the map. -1 means rotten food is never removed. Minimum=-1 Maximum=2147483647 Default=-1
-    DaysForRottenFoodRemoval = -1,
+    DaysForRottenFoodRemoval = 100,
     -- If enabled, generators will work on exterior tiles, allowing for example to power gas pump.
     AllowExteriorGenerator = true,
     -- Controls the maximum intensity of fog. Default=Normal
@@ -403,7 +403,7 @@ SandboxVars = {
     -- If disabled snow will not accumulate on ground but will still be visible on vegetation and rooftops.
     EnableSnowOnGround = true,
     -- When enabled certain melee weapons will be able to strike multiple zombies in one hit.
-    MultiHitZombies = false,
+    MultiHitZombies = true,
     -- Chance of being bitten when a zombie attacks from behind. Default=High
     -- 1 = Low
     -- 2 = Medium
