@@ -494,11 +494,11 @@ SandboxVars = {
     -- Default=In and around bodies
     -- 1 = In and around bodies
     -- 2 = In bodies only
-    MaggotSpawn = 1,
+    MaggotSpawn = 3,
     -- The higher the value, the longer lightbulbs last before breaking. If 0, lightbulbs will never break. Does not affect vehicle headlights. Minimum=0.00 Maximum=1000.00 Default=1.00
-    LightBulbLifespan = 1.0,
+    LightBulbLifespan = 2.0,
     Map = {
-        AllowMiniMap = false,
+        AllowMiniMap = true,
         AllowWorldMap = true,
         MapAllKnown = false,
     },
